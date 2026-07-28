@@ -68,7 +68,7 @@ export default function Contact() {
 
           <p className="mx-auto mt-6 max-w-2xl text-xl leading-8 text-gray-400">
             Have a question or need maintenance?
-            Send me a message and I'll get back to you as soon as possible.
+            Send me a message and I&apos;ll get back to you as soon as possible.
           </p>
         </motion.div>
 

@@ -59,7 +59,7 @@ export default function TTRBuildPage() {
             <p className="leading-8 text-gray-400">
 
               Throughout my childhood, I was always interested in riding motorcycles, but I never had the opportunity until I found this 2015 Yamaha TT-R125LE about a year ago.
-When I bought the bike, it wouldn't start. The rear wheel needed a full set of new spokes, the front brake and clutch barely functioned, and the electrical system was completely unresponsive.
+When I bought the bike, it wouldn&apos;t start. The rear wheel needed a full set of new spokes, the front brake and clutch barely functioned, and the electrical system was completely unresponsive.
 Most people would have seen an old dirt bike ready to be scrapped. I saw an opportunity—not only to own my first motorcycle, but also to learn how these machines really worked.
 I began by carefully diagnosing every issue and making a plan to repair them one by one. Over the next year, I spent countless hours cleaning, tuning, replacing worn parts, and learning from every problem I encountered. Each repair taught me something new and gave me more confidence to take on the next challenge.
 Today, the bike starts reliably, runs exactly how I want it to, and has been upgraded with modifications that I installed myself to better suit the trails I enjoy riding. More importantly, the experience taught me how to diagnose problems, perform quality repairs, and understand the importance of doing a job correctly.

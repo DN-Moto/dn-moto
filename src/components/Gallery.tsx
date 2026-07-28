@@ -110,7 +110,7 @@ export default function Gallery() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl text-xl text-gray-400">
-            Every motorcycle tells a story. Here's the bike that started DN Moto.
+            Every motorcycle tells a story. Here&apos;s the bike that started DN Moto.
           </p>
 
         </div>

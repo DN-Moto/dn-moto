@@ -14,7 +14,7 @@ export default function NotFound() {
         </h1>
 
         <p className="mx-auto mt-8 max-w-xl text-lg leading-8 text-gray-400">
-          The page you're looking for doesn't exist, may have been moved,
+          The page you&apos;re looking for doesn&apos;t exist, may have been moved,
           or the link may be incorrect.
         </p>
 

@@ -44,13 +44,13 @@ export default function Footer() {
                 Services
               </Link>
 
-              <a href="/#gallery" className="block text-gray-400 hover:text-blue-400 transition">
+              <link href="/#gallery" className="block text-gray-400 hover:text-blue-400 transition">
                 Gallery
-              </a>
+              </link>
 
-              <a href="/#contact" className="block text-gray-400 hover:text-blue-400 transition">
+              <link href="/#contact" className="block text-gray-400 hover:text-blue-400 transition">
                 Contact
-              </a>
+              </link>
 
             </div>
 
@@ -85,7 +85,7 @@ export default function Footer() {
             <div className="space-y-3">
 
               <a
-                href="mailto:YOURBUSINESSEMAIL@gmail.com"
+                href="mailto:contact.dnmotorsports@gmail.com"
                 className="text-gray-400 transition hover:text-blue-400"
               >
                 contact.dnmotorsports@gmail.com

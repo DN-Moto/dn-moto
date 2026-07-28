@@ -4,9 +4,8 @@ import {
   Settings,
   Bike,
   Search,
-  ShieldCheck,
-  BadgeDollarSign,
 } from "lucide-react";
+
 import Footer from "../../components/Footer";
 import type { Metadata } from "next";
 
@@ -195,7 +194,7 @@ export default function ServicesPage() {
           </p>
 
           <p className="mt-4 leading-8 text-gray-300">
-            Every recommendation is based on what your bike actually needs. If I notice a potential issue during service, I'll explain it clearly before any additional work is performed.
+            Every recommendation is based on what your bike actually needs. If I notice a potential issue during service, I&apos;ll explain it clearly before any additional work is performed.
           </p>
         </section>
 
