@@ -1,62 +1,70 @@
-const services = [
-  {
-    title: "Oil Changes",
-    description: "Keep your engine protected with fresh oil and quality service.",
-  },
-  {
-    title: "Air Filter Cleaning",
-    description: "Improve performance and engine life with a clean filter.",
-  },
-  {
-    title: "Carburetor Cleaning",
-    description: "Restore crisp throttle response and reliable starting.",
-  },
-  {
-    title: "Chain Service",
-    description: "Cleaning, lubrication, and adjustment for maximum lifespan.",
-  },
-  {
-    title: "Brake Service",
-    description: "Brake pad replacement and brake system inspection.",
-  },
-  {
-    title: "Pressure Washing",
-    description: "Professional cleaning to keep your bike looking its best.",
-  },
-];
+"use client";
+
+import ServiceCard from "./ServiceCard";
+import {
+  Wrench,
+  Settings,
+  Bike,
+  Search,
+} from "lucide-react";
 
 export default function Services() {
   return (
-    <section className="bg-[#111315] py-28">
+    <section
+      id="services"
+      className="bg-[#111315] py-32"
+    >
       <div className="mx-auto max-w-7xl px-8">
 
-        <h2 className="text-5xl font-bold text-white">
-          Services
-        </h2>
+        <div className="mb-20 text-center">
 
-        <p className="mt-4 max-w-2xl text-gray-400">
-          Affordable maintenance for dirt bikes under 250cc.
-          Honest work. Fair pricing. Rider-owned.
-        </p>
+          <p className="font-semibold uppercase tracking-[0.35em] text-blue-400">
+            SERVICES
+          </p>
 
-        <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <h2 className="mt-4 text-5xl font-black text-white">
+            Professional Dirt Bike Maintenance
+          </h2>
 
-          {services.map((service) => (
-            <div
-              key={service.title}
-              className="rounded-2xl border border-gray-700 bg-[#181C20] p-8 transition duration-300 hover:-translate-y-2 hover:border-blue-500 hover:shadow-2xl"
-            >
-              <h3 className="text-2xl font-semibold text-white">
-                {service.title}
-              </h3>
-
-              <p className="mt-4 leading-7 text-gray-400">
-                {service.description}
-              </p>
-            </div>
-          ))}
+          <p className="mx-auto mt-6 max-w-2xl text-xl leading-8 text-gray-400">
+            Honest pricing. Quality workmanship.
+            Maintenance focused on keeping your bike reliable and ready for the next ride.
+          </p>
 
         </div>
+
+        <div className="grid gap-8 md:grid-cols-2">
+
+          <ServiceCard
+            icon={Wrench}
+            title="Basic Maintenance"
+            description="Oil changes, air filter cleaning, chain adjustment, lubrication, and complete inspections."
+            price="Starting at $35"
+          />
+
+          <ServiceCard
+            icon={Settings}
+            title="Carburetor Service"
+            description="Carb cleaning, rejetting, tuning, idle adjustment, and troubleshooting."
+            price="Starting at $45"
+          />
+
+          <ServiceCard
+            icon={Bike}
+            title="Brake & Drive"
+            description="Brake adjustments, chain replacement, sprockets, cables, and controls."
+            price="Starting at $30"
+          />
+
+          <ServiceCard
+            icon={Search}
+            title="Diagnostics"
+            description="Starting issues, poor performance, strange noises, and general troubleshooting."
+            price="Contact for Quote"
+          />
+
+        </div>
+
       </div>
     </section>
   );
