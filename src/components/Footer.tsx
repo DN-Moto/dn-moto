@@ -44,13 +44,13 @@ export default function Footer() {
                 Services
               </Link>
 
-              <link href="/#gallery" className="block text-gray-400 hover:text-blue-400 transition">
+              <Link href="/#Gallery" className="block text-gray-400 hover:text-blue-400 transition">
                 Gallery
-              </link>
+              </Link>
 
-              <link href="/#contact" className="block text-gray-400 hover:text-blue-400 transition">
+              <Link href="/#contact" className="block text-gray-400 hover:text-blue-400 transition">
                 Contact
-              </link>
+              </Link>
 
             </div>
 
@@ -101,18 +101,38 @@ export default function Footer() {
 
         <div className="mt-20 border-t border-white/10 pt-8 text-center text-sm text-gray-500">
 
-          DN Moto Repair.
+  <p>© 2026 DN Moto Repair. All rights reserved.</p>
 
-Built for the Next Ride.
+  <p className="mt-2">
+    Built for the Next Ride.
+  </p>
 
-Serving riders one bike at a time.
+  <p className="mt-2">
+    Serving riders one bike at a time.
+  </p>
 
- All rights reserved.
+</div>
+
+<div className="mt-12 border-t border-white/10 pt-8 text-center text-sm leading-7 text-gray-500">
+
+  <p>
+    DN Moto Repair is committed to transparency and quality workmanship.
+    Customers will be informed of recommended repairs and additional costs
+    before work is performed.
+  </p>
+
+  <p className="mt-4">
+    Motorcycle riding involves risks. Customers are responsible
+    for the safe operation and inspection of their motorcycle before each
+    ride. DN Moto Repair is not responsible for any accidents, injuries, or
+    damages occurring after service unless directly caused by poor
+    workmanship or an incorrect repair.
+  </p>
+
+</div>
 
         </div>
 
-      </div>
-
-    </footer>
+      </footer>
   );
 }

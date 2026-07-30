@@ -5,7 +5,7 @@ import FadeIn from "../components/FadeIn";
 import WhyDNMoto from "../components/WhyDNMoto";
 import FeaturedProject from "../components/FeaturedProject";
 import Contact from "../components/Contact";
-import Gallery from "../components/Gallery";
+import Gallery from "../components/gallery";
 import Footer from "../components/Footer";
 
 export default function Home() {

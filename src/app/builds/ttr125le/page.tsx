@@ -8,7 +8,7 @@ export default function TTRBuildPage() {
       <section className="mx-auto max-w-5xl px-8 py-24">
 
         <img
-          src="/images/gallery/ttr-right.jpeg"
+          src="/images/Gallery/ttr-right.jpeg"
           alt="2015 Yamaha TT-R125LE"
           className="h-[450px] w-full rounded-3xl object-cover"
         />
@@ -152,7 +152,7 @@ My goal is simple: to provide honest, affordable maintenance and repairs while h
 
       </section>
 
-      <Footer />
+      <Footer/>
 
     </main>
   );

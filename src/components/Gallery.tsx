@@ -94,7 +94,7 @@ export default function Gallery() {
 }, []);
   return (
     <section
-      id="gallery"
+      id="Gallery"
       className="bg-[#0d0f11] py-32"
     >
       <div className="mx-auto max-w-7xl px-8">
