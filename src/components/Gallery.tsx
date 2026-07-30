@@ -6,32 +6,32 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const images = [
   {
-    src: "/images/gallery/ttr-full-right.jpeg",
+    src: "/images/Gallery/ttr-full-right.jpeg",
     title: "2015 Yamaha TTR125LE",
     subtitle: "Right Side Profile",
   },
   {
-    src: "/images/gallery/ttr-left.jpeg",
+    src: "/images/Gallery/ttr-left.jpeg",
     title: "Trail Ready",
     subtitle: "Left Side View",
   },
   {
-    src: "/images/gallery/ttr-front.jpeg",
+    src: "/images/Gallery/ttr-front.jpeg",
     title: "Front End",
     subtitle: "Clean & Ready",
   },
   {
-    src: "/images/gallery/ttr-back.jpeg",
+    src: "/images/Gallery/ttr-back.jpeg",
     title: "FMF Exhaust",
     subtitle: "Rear View",
   },
   {
-    src: "/images/gallery/ttr-right.jpeg",
+    src: "/images/Gallery/ttr-right.jpeg",
     title: "Right Side",
     subtitle: "Ride Ready",
   },
   {
-    src: "/images/gallery/ttr-right-zoom.jpeg",
+    src: "/images/Gallery/ttr-right-zoom.jpeg",
     title: "Detail",
     subtitle: "Closer Look",
   },
