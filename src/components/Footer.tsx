@@ -116,17 +116,16 @@ export default function Footer() {
 <div className="mt-12 border-t border-white/10 pt-8 text-center text-sm leading-7 text-gray-500">
 
   <p>
-    DN Moto Repair is committed to transparency and quality workmanship.
-    Customers will be informed of recommended repairs and additional costs
-    before work is performed.
+    DN Moto Repair is committed to providing professional service, clear communication, and quality workmanship. 
+    Customers will be informed of recommended repairs and any additional costs before additional work is performed.
+    DN Moto Repair cannot guarantee the performance, reliability, or lifespan of customer-supplied parts or pre-existing components that were not replaced or repaired during the authorized service.
   </p>
 
   <p className="mt-4">
-    Motorcycle riding involves risks. Customers are responsible
-    for the safe operation and inspection of their motorcycle before each
-    ride. DN Moto Repair is not responsible for any accidents, injuries, or
-    damages occurring after service unless directly caused by poor
-    workmanship or an incorrect repair.
+    Motorcycle riding involves inherent risks, and customers are responsible for inspecting their motorcycle before each ride and operating it safely. 
+    DN Moto Repair is responsible only for the services specifically authorized and performed. 
+    We are not responsible for accidents, injuries, property damage, or mechanical failures occurring after service except to the extent they are directly caused by negligent workmanship or an error in the repairs performed by DN Moto Repair.
+     Nothing in this statement limits any rights or remedies that cannot be disclaimed under applicable law.
   </p>
 
 </div>

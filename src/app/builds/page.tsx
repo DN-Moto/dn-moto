@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Footer from "../../components/Footer";
+import Image from "next/image";
 
 export default function BuildsPage() {
   return (
@@ -29,11 +30,13 @@ export default function BuildsPage() {
 
         <div className="mt-20 rounded-3xl border border-white/10 bg-white/5 p-8 backdrop-blur-xl transition hover:border-blue-500/30">
 
-          <img
-            src="/images/Gallery/ttr-right.jpeg"
-            alt="2015 Yamaha TT-R125LE"
-            className="h-80 w-full rounded-2xl object-cover"
-          />
+          <Image
+  src="/images/Gallery/ttr-right.jpeg"
+  alt="2015 Yamaha TT-R125LE"
+  width={1200}
+  height={800}
+  className="..."
+/>
 
           <div className="mt-8">
 

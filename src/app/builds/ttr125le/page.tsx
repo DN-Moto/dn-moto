@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Footer from "../../../components/Footer";
+import Image from "next/image";
 
 export default function TTRBuildPage() {
   return (
@@ -7,11 +8,13 @@ export default function TTRBuildPage() {
 
       <section className="mx-auto max-w-5xl px-8 py-24">
 
-        <img
-          src="/images/Gallery/ttr-right.jpeg"
-          alt="2015 Yamaha TT-R125LE"
-          className="h-[450px] w-full rounded-3xl object-cover"
-        />
+        <Image
+  src="/images/Gallery/ttr-right.jpeg"
+  alt="2015 Yamaha TT-R125LE"
+  width={1200}
+  height={800}
+  className="..."
+/>
 
         <p className="mt-10 uppercase tracking-[0.35em] text-blue-400">
           BUILD JOURNAL

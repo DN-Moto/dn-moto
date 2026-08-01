@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function FeaturedProject() {
 
@@ -19,11 +20,13 @@ export default function FeaturedProject() {
 </div>
 
         <div className="overflow-hidden rounded-2xl border border-gray-800">
-          <img
-            src="/images/hero.jpg"
-            alt="2015 Yamaha TTR125LE"
-            className="h-full w-full object-cover transition duration-700 hover:scale-105"
-          />
+          <Image
+  src="/images/Gallery/ttr-right.jpeg"
+  alt="2015 Yamaha TT-R125LE"
+  width={1200}
+  height={800}
+  className="..."
+/>
         </div>
 
         <div>
