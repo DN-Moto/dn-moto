@@ -15,6 +15,10 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://dnmotorepair.com"),
 
+alternates: {
+  canonical: "https://dnmotorepair.com",
+},
+
   title: {
     default: "DN Moto Repair",
     template: "%s | DN Moto Repair",
