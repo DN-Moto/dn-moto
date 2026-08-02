@@ -86,7 +86,44 @@ export default function RootLayout({
       <body
 className={`${sora.variable} ${inter.variable} antialiased bg-[#0b0d0f]`}
 >
-        {children}
+        <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "MotorcycleRepair",
+      name: "DN Moto Repair",
+      image: "https://dnmotorepair.com/images/logo.png",
+      logo: "https://dnmotorepair.com/images/logo.png",
+      url: "https://dnmotorepair.com",
+      telephone: "+1-817-688-9730",
+      email: "contact.dnmotorsports@gmail.com",
+
+      description:
+        "Professional maintenance and repairs for dirt bikes under 250cc. Rider-owned with honest pricing and quality workmanship.",
+
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Westlake",
+        addressRegion: "Texas",
+        addressCountry: "US",
+      },
+
+      areaServed: {
+        "@type": "AdministrativeArea",
+        name: "Dallas-Fort Worth Metroplex",
+      },
+
+      priceRange: "$",
+
+      sameAs: [
+        "https://www.facebook.com/profile.php?id=61588733715205",
+        "https://x.com/dnmotorepair",
+      ],
+    }),
+  }}
+/>
+{children}
       </body>
     </html>
   );
