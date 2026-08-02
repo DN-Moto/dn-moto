@@ -7,6 +7,7 @@ import FeaturedProject from "../components/FeaturedProject";
 import Contact from "../components/Contact";
 import Gallery from "../components/Gallery";
 import Footer from "../components/Footer";
+import FAQ from "../components/FAQ";
 
 export default function Home() {
   return (
@@ -28,6 +29,10 @@ export default function Home() {
   <FeaturedProject />
   <Gallery />
 </section>
+</FadeIn>
+
+<FadeIn>
+  <FAQ />
 </FadeIn>
 
 <FadeIn>
