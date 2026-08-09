@@ -97,7 +97,7 @@ export default function ServicesPage() {
 
   <div className="mt-6 flex flex-wrap items-center justify-center gap-x-6 gap-y-3 text-sm font-medium uppercase tracking-[0.2em] text-gray-300">
 
-    <span>Under 250cc Specialists</span>
+    <span>Up to 250cc Specialists</span>
 
     <span className="hidden sm:block text-blue-400">•</span>
 
@@ -190,7 +190,7 @@ export default function ServicesPage() {
           <h2 className="text-3xl font-black">Why DN Moto prices are different</h2>
 
           <p className="mt-4 leading-8 text-gray-300">
-            DN Moto specializes in dirt bikes under 250cc and operates with low overhead. By focusing on a specific type of motorcycle and keeping the business lean, I can offer competitive pricing without cutting corners.
+            DN Moto specializes in dirt bikes up to 250cc and operates with low overhead. By focusing on a specific type of motorcycle and keeping the business lean, I can offer competitive pricing without cutting corners.
           </p>
 
           <p className="mt-4 leading-8 text-gray-300">

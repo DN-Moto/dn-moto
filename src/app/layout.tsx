@@ -25,7 +25,7 @@ alternates: {
   },
 
   description:
-    "Professional dirt bike maintenance and repair specializing in motorcycles under 250cc. Honest pricing, quality workmanship, and rider-owned service.",
+    "Professional dirt bike maintenance and repair specializing in motorcycles up to 250cc. Honest pricing, quality workmanship, and rider-owned service.",
 
   keywords: [
     "DN Moto",
@@ -47,7 +47,7 @@ alternates: {
   openGraph: {
     title: "DN Moto Repair",
     description:
-      "Professional maintenance and repair for dirt bikes under 250cc.",
+      "Professional maintenance and repair for dirt bikes up to 250cc.",
 
     url: "https://dnmotorepair.com",
 
@@ -70,7 +70,7 @@ alternates: {
     card: "summary_large_image",
     title: "DN Moto Repair",
     description:
-      "Professional dirt bike maintenance and repair specializing in motorcycles under 250cc.",
+      "Professional dirt bike maintenance and repair specializing in motorcycles up to 250cc.",
 
     images: ["/images/hero.jpg"],
   },
@@ -100,7 +100,7 @@ className={`${sora.variable} ${inter.variable} antialiased bg-[#0b0d0f]`}
       email: "contact.dnmotorsports@gmail.com",
 
       description:
-        "Professional maintenance and repairs for dirt bikes under 250cc. Rider-owned with honest pricing and quality workmanship.",
+        "Professional maintenance and repairs for dirt bikes up to 250cc. Rider-owned with honest pricing and quality workmanship.",
 
       address: {
         "@type": "PostalAddress",
