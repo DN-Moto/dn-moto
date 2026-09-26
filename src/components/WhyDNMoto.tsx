@@ -19,7 +19,7 @@ export default function WhyDNMoto() {
             </h3>
 
             <p className="mt-4 text-gray-400 leading-7">
-              I work on the same types of bikes I ride and maintain myself.
+              We work on the same types of bikes we ride and maintain ourselves.
             </p>
           </div>
 

@@ -67,8 +67,8 @@ export default function Contact() {
           </h2>
 
           <p className="mx-auto mt-6 max-w-2xl text-xl leading-8 text-gray-400">
-            Have a question or need maintenance?
-            Send me a message and I&apos;ll get back to you as soon as possible.
+            We specialize in dirt bikes and trail bikes under 250cc. 
+            Have a question or need service? Send us a message and we&apos;ll get back to you within a couple of days.
           </p>
         </motion.div>
 
