@@ -67,7 +67,7 @@ export default function Navbar() {
           href="#home"
   className="text-2xl font-black tracking-[0.25em] text-white transition hover:text-blue-400"
 >
-  DN MOTO
+  DN MOTO REPAIR
         </a>
 
         {/* Navigation */}

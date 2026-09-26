@@ -47,7 +47,7 @@ export default function Hero() {
   transition={{ duration: 0.8 }}
   className="text-6xl font-black leading-none tracking-wide text-white md:text-8xl"
 >
-  DN MOTO Repair
+  DN Moto Repair
 </motion.h1>
 
             <motion.p
