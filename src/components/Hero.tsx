@@ -47,7 +47,7 @@ export default function Hero() {
   transition={{ duration: 0.8 }}
   className="text-6xl font-black leading-none tracking-wide text-white md:text-8xl"
 >
-  DN MOTO
+  DN MOTO Repair
 </motion.h1>
 
             <motion.p
@@ -65,7 +65,7 @@ export default function Hero() {
   transition={{ delay: 0.4, duration: 0.8 }}
   className="mt-6 text-lg leading-8 text-gray-200 md:text-xl"
 >
-  Professional maintenance and repairs for dirt bikes up to 250cc.
+  Professional maintenance and repairs for dirt bikes under 250cc.
   <br />
   Rider-owned. Honest pricing. Attention to detail.
 </motion.p>
